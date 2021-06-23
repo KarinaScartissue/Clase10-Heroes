@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+#desc {
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    position: sticky
+}h2 {
+    font-size: 30px;
+    padding-top: 74px;
+    text-align: center;
+    text-transform: uppercase
+}
+h3 {
+    font-size: 15px
+}
+
+p {
+    font-size: 16px
+}
+#title {
+    background-color: #00669F;
+    padding: 28px;
+}
+
+main {
+    padding: 155px 17px
+}
+#container {
+    position: relative;
+    display: flex;
+    justify-content:center;
+}
+.card {
+    position: relative;
+    background-color: #F3F3F3;
+    width: 300px;
+    margin: 15px;
+    height: 529px;
+    z-index: 1;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.like {
+    position: absolute;
+    top: 15.68px;
+    left: 21px;
+}
+.perfil {
+    position: absolute;
+    top: 132px;
+    left: 89px;
+    border-radius: 50%;
+    width: 122px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info {
+    position: relative;
+    width: 267px;
+    top: 10px;
+    left: 16px;
+}
+button {
+    position: absolute;
+    top: 462px;
+    right: 85px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 15px;
+    padding: 15px 37px;
+    height: 48.5px;
+}
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    height: 51px;
+    padding: 16px
+}
